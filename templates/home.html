@@ -1,0 +1,9 @@
+<h1>Song List</h1>
+{% for song in songs_list %}
+    <ul>
+        <li>{{ song.artist }}</li>
+        <li>{{ song.album }}</li>
+        <li>{{ song.title }}</li>
+        <li>{{ song.year }}</li>
+    </ul>
+{% endfor %}
